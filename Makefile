@@ -4,7 +4,7 @@ F_CPU = 16000000
 MCU = atmega328p
 DEFINES = 
 
-FILES = main.c uart.c twi.c
+FILES = main.c uart.c twi.c oled.c
 
 PROGRAMMER = arduino
 PORT = COM3
